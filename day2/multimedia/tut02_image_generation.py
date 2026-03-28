@@ -8,7 +8,7 @@ Yêu cầu:
 
 Chạy:
     export GEMINI_API_KEY="your-api-key"
-    streamlit run demo2_image_generation.py
+    streamlit run tut02_image_generation.py
 """
 
 import streamlit as st

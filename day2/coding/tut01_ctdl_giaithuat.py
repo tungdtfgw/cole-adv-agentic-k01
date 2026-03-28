@@ -56,28 +56,28 @@ st.divider()
 # ===== DANH SÁCH CHỦ ĐỀ =====
 TOPICS = {
     "📦 Cấu trúc dữ liệu": {
-        "Stack (Ngăn xếp)": "Implement a Stack data structure using a Python list. Show push, pop, peek operations with examples. Print the stack after each operation.",
-        "Queue (Hàng đợi)": "Implement a Queue data structure using collections.deque. Show enqueue, dequeue operations with examples. Print the queue after each operation.",
-        "Linked List (Danh sách liên kết)": "Implement a Singly Linked List with insert, delete, and traverse operations. Create a list with 5 elements, delete one, and print the result.",
-        "Binary Search Tree": "Implement a Binary Search Tree with insert and inorder traversal. Insert values [50, 30, 70, 20, 40, 60, 80] and print inorder result.",
-        "Hash Table": "Implement a simple Hash Table with put and get methods using chaining for collision handling. Demonstrate with 5 key-value pairs.",
-        "Graph (Đồ thị)": "Implement an undirected Graph using adjacency list. Add edges and perform BFS traversal from a starting node. Print the traversal order.",
+        "Stack (Ngăn xếp)": "Cài đặt cấu trúc dữ liệu Stack bằng list trong Python. Minh họa các thao tác push, pop, peek kèm ví dụ. In ra trạng thái stack sau mỗi thao tác.",
+        "Queue (Hàng đợi)": "Cài đặt cấu trúc dữ liệu Queue bằng collections.deque. Minh họa các thao tác enqueue, dequeue kèm ví dụ. In ra trạng thái queue sau mỗi thao tác.",
+        "Linked List (Danh sách liên kết)": "Cài đặt Danh sách liên kết đơn với các thao tác thêm, xóa và duyệt. Tạo danh sách gồm 5 phần tử, xóa một phần tử, rồi in kết quả.",
+        "Cây tìm kiếm nhị phân (BST)": "Cài đặt Cây tìm kiếm nhị phân với thao tác thêm node và duyệt inorder. Thêm các giá trị [50, 30, 70, 20, 40, 60, 80] rồi in kết quả duyệt inorder.",
+        "Bảng băm (Hash Table)": "Cài đặt Bảng băm đơn giản với phương thức put và get, sử dụng chaining để xử lý đụng độ. Minh họa với 5 cặp key-value.",
+        "Đồ thị (Graph)": "Cài đặt Đồ thị vô hướng bằng danh sách kề. Thêm các cạnh và thực hiện duyệt BFS từ một đỉnh xuất phát. In thứ tự duyệt.",
     },
     "⚡ Thuật toán sắp xếp": {
-        "Bubble Sort": "Implement Bubble Sort. Sort the array [64, 34, 25, 12, 22, 11, 90]. Print the array after each pass to show how it works step by step.",
-        "Quick Sort": "Implement Quick Sort with partition function. Sort the array [10, 80, 30, 90, 40, 50, 70]. Print the pivot choices and resulting partitions.",
-        "Merge Sort": "Implement Merge Sort. Sort the array [38, 27, 43, 3, 9, 82, 10]. Show the divide and merge steps by printing intermediate arrays.",
-        "Insertion Sort": "Implement Insertion Sort. Sort the array [12, 11, 13, 5, 6]. Print the array after each insertion step.",
+        "Sắp xếp nổi bọt (Bubble Sort)": "Cài đặt thuật toán Bubble Sort. Sắp xếp mảng [64, 34, 25, 12, 22, 11, 90]. In mảng sau mỗi lượt để thấy cách hoạt động từng bước.",
+        "Sắp xếp nhanh (Quick Sort)": "Cài đặt thuật toán Quick Sort với hàm partition. Sắp xếp mảng [10, 80, 30, 90, 40, 50, 70]. In ra pivot được chọn và các phân hoạch tương ứng.",
+        "Sắp xếp trộn (Merge Sort)": "Cài đặt thuật toán Merge Sort. Sắp xếp mảng [38, 27, 43, 3, 9, 82, 10]. Hiển thị các bước chia và trộn bằng cách in các mảng trung gian.",
+        "Sắp xếp chèn (Insertion Sort)": "Cài đặt thuật toán Insertion Sort. Sắp xếp mảng [12, 11, 13, 5, 6]. In mảng sau mỗi bước chèn.",
     },
     "🔍 Thuật toán tìm kiếm": {
-        "Binary Search": "Implement Binary Search (iterative and recursive). Search for values 23 and 50 in sorted array [2, 3, 4, 10, 23, 40, 67]. Print each comparison step.",
-        "Depth-First Search (DFS)": "Implement DFS on a graph with adjacency list. Create a graph with 7 nodes, perform DFS from node 0. Print visited nodes in order.",
-        "Breadth-First Search (BFS)": "Implement BFS on a graph with adjacency list. Create a graph with 7 nodes, perform BFS from node 0. Print visited nodes in order.",
+        "Tìm kiếm nhị phân (Binary Search)": "Cài đặt Tìm kiếm nhị phân (cả lặp và đệ quy). Tìm giá trị 23 và 50 trong mảng đã sắp xếp [2, 3, 4, 10, 23, 40, 67]. In từng bước so sánh.",
+        "Tìm kiếm theo chiều sâu (DFS)": "Cài đặt DFS trên đồ thị bằng danh sách kề. Tạo đồ thị gồm 7 đỉnh, thực hiện DFS từ đỉnh 0. In thứ tự các đỉnh đã thăm.",
+        "Tìm kiếm theo chiều rộng (BFS)": "Cài đặt BFS trên đồ thị bằng danh sách kề. Tạo đồ thị gồm 7 đỉnh, thực hiện BFS từ đỉnh 0. In thứ tự các đỉnh đã thăm.",
     },
     "🧩 Thuật toán khác": {
-        "Fibonacci (DP)": "Calculate Fibonacci numbers using 3 approaches: recursive, memoization, and bottom-up DP. Compare the results for n=10 and show step-by-step for DP approach.",
-        "Dijkstra (Đường đi ngắn nhất)": "Implement Dijkstra's shortest path algorithm. Create a weighted graph with 6 nodes and find shortest paths from node 0 to all others. Print the distance table.",
-        "Two Pointers": "Demonstrate Two Pointers technique: find two numbers in sorted array [1, 2, 3, 4, 6, 8, 9, 14, 15] that sum to 13. Show each pointer movement.",
+        "Fibonacci (Quy hoạch động)": "Tính dãy Fibonacci bằng 3 cách: đệ quy, đệ quy có nhớ (memoization), và quy hoạch động bottom-up. So sánh kết quả với n=10 và trình bày từng bước cho cách quy hoạch động.",
+        "Dijkstra (Đường đi ngắn nhất)": "Cài đặt thuật toán Dijkstra tìm đường đi ngắn nhất. Tạo đồ thị có trọng số gồm 6 đỉnh, tìm đường đi ngắn nhất từ đỉnh 0 đến tất cả các đỉnh còn lại. In bảng khoảng cách.",
+        "Kỹ thuật hai con trỏ (Two Pointers)": "Minh họa kỹ thuật Hai con trỏ: tìm hai số trong mảng đã sắp xếp [1, 2, 3, 4, 6, 8, 9, 14, 15] có tổng bằng 13. Hiển thị từng bước di chuyển con trỏ.",
     },
 }
 
@@ -102,19 +102,19 @@ if st.button("🚀 Giải thích & Chạy code", type="primary", use_container_w
 
     # Tạo prompt
     base_prompt = TOPICS[category][topic]
-    prompt = f"""You are a computer science teacher. Explain the following topic clearly and concisely in Vietnamese, then write Python code to demonstrate it.
+    prompt = f"""Bạn là một giảng viên Khoa học Máy tính. Hãy giải thích chủ đề sau một cách rõ ràng, dễ hiểu bằng tiếng Việt có dấu, sau đó viết code Python minh họa.
 
-TOPIC: {topic}
-TASK: {base_prompt}
+CHỦ ĐỀ: {topic}
+YÊU CẦU: {base_prompt}
 
-REQUIREMENTS:
-- Explain the concept in Vietnamese (2-3 paragraphs, clear and easy to understand)
-- Write clean, well-commented Python code
-- The code MUST print output to show results clearly
-- Add print statements to show step-by-step execution
+QUY TẮC:
+- Giải thích khái niệm bằng tiếng Việt có dấu (2-3 đoạn, rõ ràng và dễ hiểu)
+- Viết code Python sạch, có comment bằng tiếng Việt
+- Code PHẢI in ra kết quả để thấy rõ output
+- Thêm lệnh print để hiển thị từng bước thực thi
 """
     if custom_prompt:
-        prompt += f"\n\nADDITIONAL REQUEST FROM USER: {custom_prompt}"
+        prompt += f"\n\nYÊU CẦU BỔ SUNG TỪ NGƯỜI DÙNG: {custom_prompt}"
 
     # Gọi Gemini API với Code Execution
     try:

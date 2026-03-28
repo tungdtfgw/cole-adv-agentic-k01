@@ -1,0 +1,7 @@
+mcp[cli]>=1.2.0
+httpx
+python-dotenv
+streamlit
+google-genai
+pandas
+plotly
