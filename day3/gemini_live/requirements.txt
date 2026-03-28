@@ -1,0 +1,8 @@
+streamlit>=1.40.0
+google-genai>=1.0.0
+requests
+streamlit-webrtc>=0.47.0
+av>=13.0.0
+numpy
+pydub
+audioop-lts
