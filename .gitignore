@@ -21,3 +21,4 @@ _DS_Store
 *.egg-info
 dist/
 build/
+secrets.toml
